@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+body{
+  padding: 0%;
+  margin: 0;
+  background: #000;
+  color: white;
+  font-family: "Oxygen" , sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+
+}
+
+.home img{
+  width: 100%;
+  -webkit-filter: grayscale(100%) contrast(100%);
+  filter: grayscale(100%) contrast(200%)brightness(80%)
+}
+
+.folio img{
+  filter: grayscale(100%);
+}
+
+aside{
+  position: fixed
+}
