@@ -189,5 +189,77 @@ header h5{
 }
 
 .row-halves{
-  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  -webkit-flex-pack: justify;
+}
+
+.row-halves .col{
+  width: 49%;
+}
+
+.col{
+  border: 1px solid #222;
+  background: #222;
+  color: #b2b2b2;
+  padding: 10px;
+}
+
+.label{
+  color: #b2b2b2;
+}
+
+form input[type="text"],
+select,
+textarea{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border: 1px solid #222;
+  background: transparent;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: #b2b2b2
+}
+
+form input[type="text"]:focus,
+textarea:focus{
+  outline: none;
+  border: 1px solid #009688;
+}
+
+input[type="submit"]{
+  background-color: transparent;
+  color: #b2b2b2;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid #222;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+input[type="submit"]{
+  background-color: transparent;
+  color: #b2b2b2;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid #222;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+input[type="submit"]:hover{
+  background-color: #b2b2b2;
+  color: #222;
+}
+
+.contact .container{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background: transparent;
+  padding: 20px 0;
 }
