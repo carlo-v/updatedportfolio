@@ -263,3 +263,41 @@ input[type="submit"]:hover{
   background: transparent;
   padding: 20px 0;
 }
+
+.footer{
+ border-top: 1px solid #222;
+}
+
+.top-bar{
+ padding: 20px 0;
+ text-align: center;
+}
+
+.top-bar a{
+  margin: 10px;
+  font-size: 2em;
+  color: #b2b2b2;
+  transition: all 0.35s;
+  display: inline-block;
+}
+
+.top-bar a:hover{
+  transform: scale(1.1);
+  color: #009688;
+}
+
+.bottom-bar{
+  background: #000;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+@media (max-width: 768px){
+  .row-halves{
+    display: block;
+  }
+  .row-halves .col{
+    width: 100%;
+    margin: 0 0 10pm 0;
+  }
+}
