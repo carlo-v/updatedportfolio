@@ -93,3 +93,101 @@ main{
   margin-left: 20%;
   padding: 12px 50px 12px 50px;
 }
+
+header{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+header h1{
+  font-weight: bold;
+  font-size: 4em;
+  letter-spacing: 4px;
+}
+
+header h5{
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 4px;
+  color: #b2b2b2;
+}
+
+.about,
+.folio,
+.contact{
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.about h2,
+.folio h2,
+.contact h2{
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  padding-bottom: 10px;
+  margin: 100px 0 0 0;
+  letter-spacing: 4px;
+}
+
+.about p{
+  color: #b2b2b2;
+}
+
+.about span{
+  font-weight: 600;
+  color: white;
+}
+
+.about h3{
+  font-weight: 300;
+  margin: 50px 0; 
+}
+
+.container{
+  width: 100%;
+  background-color: #b2b2b2;
+}
+
+.skills{
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+  background-color: gray;
+}
+
+.photoshop{
+  width: 90%;
+}
+
+.illustratot{
+  width: 90%;
+}
+
+.photography{
+  width: 70%;
+}
+
+.html{
+  width: 30%;
+}
+
+.css{
+  width: 30%;
+}
+
+.folio h3{
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.folio p{
+  font-size: 0.87em;
+}
+
+.row-halves{
+  
+}
