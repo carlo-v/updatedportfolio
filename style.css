@@ -8,6 +8,14 @@
   outline: none;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
 body{
   padding: 0%;
   margin: 0;
@@ -281,8 +289,8 @@ input[type="submit"]:hover{
 }
 
 .top-bar a:hover{
-  transform: scale(1.1);
-  color: #009688;
+  transform: scale(1.2);
+  color: rgb(58, 57, 57);
 }
 
 .bottom-bar{
@@ -305,3 +313,4 @@ input[type="submit"]:hover{
   width: 100%;
   margin: 0 0 10px 0;
 }
+
