@@ -13,7 +13,7 @@ body{
   margin: 0;
   background: #000;
   color: white;
-  font-family: "Oxygen" , sans-serif;
+  font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 a{
@@ -46,6 +46,7 @@ aside{
   z-index: 1;
   text-align: center;
   padding: 0;
+  font-size: 1.5em;
 
 }
 
@@ -54,9 +55,6 @@ aside img{
   margin-bottom: -3px;
 }
 
-.material-icons.md-36{
-  font-size: 36px;
-}
 
 aside a{
   display: block;
@@ -100,6 +98,7 @@ header{
 }
 
 header h1{
+  font-family: 'Saira Extra Condensed', sans-serif;
   font-weight: bold;
   font-size: 4em;
   letter-spacing: 4px;
