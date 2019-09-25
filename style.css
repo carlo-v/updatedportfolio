@@ -33,7 +33,7 @@ a{
 
 img{
   width: 100%;
-  
+
 }
 
 
@@ -41,6 +41,7 @@ img{
   width: 100%;
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%) brightness(80%);
+align: center;
 }
 
 .folio img{
@@ -114,6 +115,7 @@ header h1{
   font-weight: bold;
   font-size: 4em;
   letter-spacing: 4px;
+  color: white;
 }
 
 header h5{
@@ -129,6 +131,7 @@ header h5{
   line-height: 1.5em;
   letter-spacing: 1px;
   font-weight: 300;
+  color: #b2b2b2;
 }
 
 .about h2,
